@@ -1,10 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+:root {
+  --color-red: hsl(0, 100%, 74%);
+  --color-green: hsl(154, 59%, 51%);
+
+  --accent-blue: hsl(248, 32%, 49%);
+
+  --dark-blue: hsl(249, 10%, 26%);
+
+  --grey-blue: hsl(246, 25%, 77%);
+}
+
 body {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: url(./images/bg-intro-desktop.png);
+  background-color: var(--color-red);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-container {
+  max-width: 500px;
+  width: 50%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  padding: 1em 0.75em;
+}
+
+.hero {
+  color: #fff;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1em;
+}
+
+.hero__description {
+  line-height: 140%;
+}
+
+.subscription {
+  color: #fff;
+  width: 50%;
+}
+
+#trial-btn {
+  background: var(--accent-blue);
+  border-radius: 5px;
+  text-align: center;
+}
+#trial-btn span {
+  font-weight: 600;
+}
+
+form {
+  padding: 2em;
+  margin-top: 1em;
+  background: #fff;
+}
+
+input {
+  padding: 1em;
+}
+
+input + input {
+  margin-top: 1em;
+}
+
+.terms {
+  color: #000;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
