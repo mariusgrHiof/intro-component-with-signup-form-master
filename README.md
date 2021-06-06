@@ -22,8 +22,9 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Links
 
-- Solution URL: [https://github.com/mariusgrHiof/intro-component-with-signup-form-master](https://github.com/mariusgrHiof/intro-component-with-signup-form-master)
 - Live Site URL: [https://signup-5f559a.netlify.app](https://signup-5f559a.netlify.app)
+- Solution URL: [https://github.com/mariusgrHiof/intro-component-with-signup-form-master](https://github.com/mariusgrHiof/intro-component-with-signup-form-master)
+
 
 ## My process
 
