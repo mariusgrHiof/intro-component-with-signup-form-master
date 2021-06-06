@@ -33,10 +33,49 @@
           <span>Try it free 7 days</span> then $20/mo. thereafter
         </div>
         <form id="form" class="flex-col">
-          <input id="firstname" type="text" placeholder="Firstname" />
-          <input id="lastname" type="text" placeholder="Lastname" />
-          <input id="email" type="email" placeholder="Email address" />
-          <input id="password" type="password" placeholder="Password" />
+          <div class="form-control">
+            <input
+              autocomplete="off"
+              id="firstname"
+              type="text"
+              placeholder="Firstname"
+            />
+            <img class="firstname-icon" src="images/icon-error.svg" alt="" />
+            <div class="error-message"></div>
+          </div>
+          <div class="form-control">
+            <input
+              autocomplete="off"
+              id="lastname"
+              type="text"
+              placeholder="Lastname"
+            />
+            <img class="lastname-icon" src="images/icon-error.svg" alt="" />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-control">
+            <input
+              autocomplete="off"
+              id="email"
+              type="email"
+              placeholder="Email address"
+            />
+            <img class="email-icon" src="images/icon-error.svg" alt="" />
+            <div class="error-message"></div>
+          </div>
+
+          <div class="form-control">
+            <input
+              autocomplete="off"
+              id="password"
+              type="password"
+              placeholder="Password"
+            />
+            <img class="password-icon" src="images/icon-error.svg" alt="" />
+            <div class="error-message"></div>
+          </div>
+
           <input
             id="submit"
             class="submit-btn btn"
@@ -44,7 +83,7 @@
             value="CLAIM YOUR FREE TRIAL"
           />
           <p class="terms">
-            clicking the button, you are agreeing to our
+            By clicking the button, you are agreeing to our
             <span>Terms and Services</span>
           </p>
         </form>
@@ -56,8 +95,10 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by
+        <a href="https://github.com/mariusgrHiof">Marius Gravningsmyhr</a>.
       </p>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
