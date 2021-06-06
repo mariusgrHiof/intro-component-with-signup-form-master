@@ -28,7 +28,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ## My process
 
-I started to structure the HTML and then adding CSS. Then I started to add JavaScript to handle inputs from the user. In the end, I created media queries to make the site responsive on tablet and mobile devices.
+I started to structure the HTML and then adding CSS. Then I added JavaScript to validate inputs from the user. In the end, I created media queries to make the site responsive on tablet and mobile devices.
 
 ### Built with
 
