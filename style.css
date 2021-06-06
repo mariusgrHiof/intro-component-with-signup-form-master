@@ -187,6 +187,10 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    height: auto;
+  }
+
   .flex {
     flex-direction: column;
     width: 100%;
@@ -209,5 +213,12 @@ footer {
   }
   .subscription {
     width: 80%;
+  }
+  .submit-btn {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    margin: 1.5em 0;
   }
 }
