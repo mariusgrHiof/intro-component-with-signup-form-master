@@ -21,6 +21,7 @@ submitBtn.addEventListener('click', (e) => {
   }
 
   if (email === '') {
+    form['email'].placeholder = 'email@example/com';
     addToError('email', 'email cannot be empty');
   } else if (!validateEmail(email)) {
     addToError('email', 'email not valid');
